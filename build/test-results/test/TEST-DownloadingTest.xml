@@ -1,18 +1,16 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<testsuite name="DownloadingTest" tests="1" skipped="0" failures="0" errors="0" timestamp="2021-08-12T17:40:06" hostname="DESKTOP-RTIONTM" time="8.526">
+<testsuite name="DownloadingTest" tests="1" skipped="0" failures="0" errors="0" timestamp="2021-08-19T14:53:48" hostname="DESKTOP-RTIONTM" time="11.567">
   <properties/>
-  <testcase name="DowloadTest()" classname="DownloadingTest" time="8.526"/>
+  <testcase name="DowloadTest()" classname="DownloadingTest" time="11.567"/>
   <system-out><![CDATA[]]></system-out>
   <system-err><![CDATA[SLF4J: Failed to load class "org.slf4j.impl.StaticLoggerBinder".
 SLF4J: Defaulting to no-operation (NOP) logger implementation
 SLF4J: See http://www.slf4j.org/codes.html#StaticLoggerBinder for further details.
-1628790007265	geckodriver	INFO	Listening on 127.0.0.1:14181
-1628790007990	mozrunner::runner	INFO	Running command: "C:\\Program Files\\Firefox Developer Edition\\firefox.exe" "--marionette" "-foreground" "-no-remote" "-profile" "C:\\Users\\27C6~1\\AppData\\Local\\Temp\\rust_mozprofileniGyiE"
-1628790008546	Marionette	INFO	Marionette enabled
-console.warn: SearchSettings: "get: No settings file exists, new profile?" (new NotFoundError("Could not open the file at C:\\Users\\\u0420\u0443\u0441\u043B\u0430\u043D\\AppData\\Local\\Temp\\rust_mozprofileniGyiE\\search.json.mozlz4", (void 0)))
-1628790011274	Marionette	INFO	Listening on port 8155
-1628790011655	RemoteAgent	WARN	TLS certificate errors will be ignored for this session
-авг. 12, 2021 10:40:11 PM org.openqa.selenium.remote.ProtocolHandshake createSession
+Starting ChromeDriver 92.0.4515.107 (87a818b10553a07434ea9e2b6dccf3cbe7895134-refs/branch-heads/4515@{#1634}) on port 6024
+Only local connections are allowed.
+Please see https://chromedriver.chromium.org/security-considerations for suggestions on keeping ChromeDriver safe.
+ChromeDriver was started successfully.
+авг. 19, 2021 7:53:51 PM org.openqa.selenium.remote.ProtocolHandshake createSession
 INFO: Detected dialect: W3C
 ]]></system-err>
 </testsuite>

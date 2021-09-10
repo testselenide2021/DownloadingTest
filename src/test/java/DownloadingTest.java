@@ -14,7 +14,7 @@ import static com.codeborne.selenide.files.FileFilters.withExtension;
 
 public class DownloadingTest {
     @Test
-    void DowloadTest() throws InterruptedException, FileNotFoundException {
+    void DownloadTest() throws InterruptedException, FileNotFoundException {
         Configuration.timeout=20000;
 //        Configuration.browser = "firefox";
         Configuration.downloadsFolder = "C:\\TestDownload";
